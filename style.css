@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
   background-color: red;
   width: 375px;
-  background-size: cover;
+  background-size: 375px;
 }
 
 .pop-up {
