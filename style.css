@@ -1,0 +1,44 @@
+body {
+  background-image: url(/image.png);
+  background-repeat: no-repeat;
+  background-color: red;
+  width: 375px;
+  background-size: cover;
+}
+
+.pop-up {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: cornflowerblue;
+  border-radius: 5% 5% 0 0;
+  width: 268px;
+  margin-top: 200px;
+  margin-left: 20px;
+  padding: 25px;
+}
+
+.chat-bot {
+    width: 375px;
+
+}
+
+.chat-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.msg {
+    background-color: crimson;
+    padding: 25px;
+    margin-top: 25px;
+
+}
+
+.msg-field {
+  background-color: darkcyan;
+  margin-left: 20px !important;
+}
