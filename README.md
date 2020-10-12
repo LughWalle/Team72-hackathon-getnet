@@ -1,6 +1,6 @@
-<h1 align="center">
+<!-- <h1 align="center">
     <img alt="MegaHack" title="#MegaHack" src=".github/brand.png" width="250px" />
-</h1>
+</h1> -->
 
 <h4 align="center"> 
 	:heavy_check_mark: Focus - Hackathon Getnet :heavy_check_mark:
@@ -48,7 +48,7 @@ Grande não apenas por quebrar barreiras geográficas, mas também pela dimensã
 
 This project was developed with the following technologies:
 
-- [javaScript][javascript]
+- [JavaScript][javascript]
 - [Html][html]
 - [CSS][css]
 
