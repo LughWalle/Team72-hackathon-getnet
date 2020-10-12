@@ -1,8 +1,9 @@
 body {
-  background-image: url(/image.png);
+  background-image: url(/imgs/Group\ 232.png);
   background-repeat: no-repeat;
-  background-color: red;
+  background-color: white;
   width: 375px;
+  height: 812px;
   background-size: 375px;
 }
 
@@ -21,21 +22,19 @@ body {
 }
 
 .chat-bot {
-    width: 375px;
-
+  width: 375px;
 }
 
 .chat-field {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .msg {
-    background-color: crimson;
-    padding: 25px;
-    margin-top: 25px;
-
+  background-color: crimson;
+  padding: 25px;
+  margin-top: 25px;
 }
 
 .msg-field {
