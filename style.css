@@ -33,7 +33,7 @@ body {
   height: 66px;
   left: 41px;
   top: 30px;
-  font-family: Roboto;
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -44,7 +44,12 @@ body {
 }
 
 .chat-bot {
+  position: absolute;
   width: 375px;
+  height: 607px;
+  left: 0px;
+  top: 205px;
+  background-color: #e5e5e5;
 }
 
 .chat-field {
@@ -55,8 +60,15 @@ body {
 
 .msg {
   background-color: crimson;
+  flex-direction: column;
+  justify-content: space-between;
   padding: 25px;
-  margin-top: 25px;
+  margin-top: 24px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
 }
 
 .msg-field {
