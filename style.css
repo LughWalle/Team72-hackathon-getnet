@@ -14,11 +14,28 @@ body {
 } */
 
 .pop-up {
-  display: flex;
+  display: none;
   flex-direction: column;
   background-color: rgba(56, 56, 56, 0.308);
   width: 375px;
   height: 812px;
+}
+.show {
+  display: flex;
+}
+
+.btn-chat {
+  border-radius: 90%;
+  width: 59px;
+  height: 59px;
+  background-color: #f14444;
+  text-align: center;
+  margin-top: 662px;
+  margin-left: 297px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 }
 
 .header {
@@ -79,7 +96,7 @@ body {
   border-radius: 10px;
   color: white;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  align-self: flex-end;
+  align-self: flex-start;
 }
 
 .msg-sent {
@@ -87,11 +104,27 @@ body {
   border-radius: 10px;
   color: black;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  align-self: flex-start;
+  align-self: flex-end;
 }
 
 .msg-field {
   margin-top: 16px;
-  background-color: white;
-  margin-left: 20px !important;
+  background-color: #f9f3f3;
+  width: 75%;
+  height: 10%;
+  border-radius: 16px 0 0;
+  border-color: #f5f5f5;
+  bottom: 0;
+  position: absolute;
+}
+
+.btn-send {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border-radius: 0 12px 0 0;
+  height: 66px;
+  width: 88px;
+  border: 1px inset;
+  border-color: #d6d6d6;
 }
